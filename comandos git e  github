@@ -1,0 +1,65 @@
+TUORIAL GIT E GITHUB:
+Criar pasta (pode ser no VsCode) > abrir com Git bash > git init > git add "Nome da pasta/arquivo" > git status > user email/name e global > git commit -m "Primeiro commit" > git status > cria um repositório no GitHub > git remote add origin nome do repositório > git push -u origin main > autorizar GitHub 
+
+Adicionando ou atualizando o GitHub:
+> Criar outro arquivo > git add . > git status > git commit -m "título do commit" > git push origin main
+
+Criando um novo Branch:
+git checkout -b "Nome da nova branch" > fazer as alterações do arquivo ou adicionar um novo arquivo > git add . > git status > git commit -m "Título da alteração" > git status > git push Origin nome da nova branch
+
+Merge de branchs:
+git checkout main > git merge Nome da branch a ser juntada
+
+Clone:
+Entrar no repositório de alguém e escolher um (se der Star fica marcado para vc), > Selecionar code > link Http ou SSH > Copy > Cria um novo arquivo/pasta > abrir com gitbash > git clone cola o Http ou SSH.
+Para atualizar: cd nome da sua pasta > git bash e escreva git pull.
+
+FORK:
+Quando você quer que um repositório de outra pessoa (no qual vc já tenha clonado), apareça no seu repositório GitHub.
+Vá no perfil da pessoa > Fork.
+
+PULL REQUEST:
+Quando você faz uma alteração no arquivo forkiado, e acha interessante que seja adicionado no arquivo original do "dono" do arquivo. 
+Vá no seu arquivo forkiado > scrool down >Commit changes > Contribute > Open pull request > create pull request (comentar o que foi alterado).
+
+OBS: 
+- Clear - limpa tela.
+- Ctrl L - scrool up.
+- git add . - adiciona todos os arquivos que já foram abertos na pasta.
+- Copia e cola: Copy-Paste; Ctrl insert + Ctrl shift
+- git config -- global user.name ""
+- git config -- global user.email ""
+- git remote remove origin
+
+https://github.com/rafaballerini/GitTutorial.git
+
+
+
+NA CP:
+labsfiap@PA201MICRO02 MINGW64 ~/Desktop/gitfront
+$ git init
+
+labsfiap@PA201MICRO02 MINGW64 ~/Desktop/gitfront (master)
+$ git clone https://github.com/felipecvo-fiap-fde-25-fev/git-101-AlanLittell.git
+
+ labsfiap@PA201MICRO02 MINGW64 ~/Desktop/gitfront (master)
+$ cd git-101-AlanLittell/
+ 
+ labsfiap@PA201MICRO02 MINGW64 ~/Desktop/gitfront/git-101-AlanLittell (main)
+$ git pull
+Already up to date.
+ 
+labsfiap@PA201MICRO02 MINGW64 ~/Desktop/gitfront/git-101-AlanLittell (main)
+$ code .
+
+ALTERA O ARQUIVO E SALVA
+ 
+labsfiap@PA201MICRO02 MINGW64 ~/Desktop/gitfront/git-101-AlanLittell (main)
+$ git add .
+
+labsfiap@PA201MICRO02 MINGW64 ~/Desktop/gitfront/git-101-AlanLittell (main)
+$ git commit -m "Teste cp linha 9"
+
+
+labsfiap@PA201MICRO02 MINGW64 ~/Desktop/gitfront/git-101-AlanLittell (main)
+$ git push
