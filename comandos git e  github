@@ -30,6 +30,7 @@ OBS:
 - git config -- global user.name ""
 - git config -- global user.email ""
 - git remote remove origin
+- Utilizar a tecl "q" para destravar quando necessário.
 
 https://github.com/rafaballerini/GitTutorial.git
 
