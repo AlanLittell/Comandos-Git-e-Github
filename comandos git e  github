@@ -29,8 +29,11 @@ OBS:
 - Copia e cola: Copy-Paste; Ctrl insert + Ctrl shift
 - git config -- global user.name ""
 - git config -- global user.email ""
+- git remote add origin: quando você está configurando um repositório local para se conectar a um repositório remoto ( GitHub.).
 - git remote remove origin
 - Utilizar a tecl "q" para destravar quando necessário.
+- mkdir - cria uma pasta nova.
+- Ls ou dir - mostra o que tem na pasta.
 
 https://github.com/rafaballerini/GitTutorial.git
 
